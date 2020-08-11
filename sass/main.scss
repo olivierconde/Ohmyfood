@@ -11,18 +11,19 @@ $color-ledelice: RGB(249 249 249);
 
 /*tete de page*/
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.tete-page{
+.tete-page {
     background-color: $color-tetepied;
     height: 8rem;
     text-align: center;
     top:0px;
-}
-h1{
+} 
+
+h1 {
     padding-top: 1.5rem;
     font-size: 4rem;
     color: $color-textetitre;
@@ -30,7 +31,7 @@ h1{
 
 /* corps de page*/
 
-main{
+main {
     width: 1240px;
     height: 100%;
     margin: auto;
@@ -39,7 +40,7 @@ main{
     justify-content: space-around;
 }
 
-a{
+a {
     width: 30rem;
     height: 22rem;
     margin: 5rem 2.5rem 0rem 2.5rem;
@@ -47,25 +48,43 @@ a{
 
 }
 
-.lanote{
+.lanote {
     background-color: $color-lanoteenchantee;
     
 }
 
-.lechic{
+.lechic {
     background-color: $color-lechicfrancaise;
 }
 
-.ledelice{
+.ledelice {
     background-color: $color-ledelice;
 }
 
-.lapalette{
+.lapalette {
     background-color: $color-lapalette;
 }
 
-h2{
+h2 {
     text-align: center;
     padding-top: 8rem;
     font-size: 1.3rem;
+}
+
+/*pied de page*/
+
+footer {
+    background-color: $color-tetepied;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around ;
+}
+
+h4 {
+    color: $color-textetitre;
+    font-size: 1.5rem;
 }

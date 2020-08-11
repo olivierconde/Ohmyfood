@@ -48,4 +48,19 @@ h2 {
   padding-top: 8rem;
   font-size: 1.3rem; }
 
+/*pied de page*/
+footer {
+  background-color: RGB(87 156 135);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+h4 {
+  color: RGB(253 203 69);
+  font-size: 1.5rem; }
+
 /*# sourceMappingURL=style.css.map */
