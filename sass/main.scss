@@ -10,6 +10,13 @@ $color-lapalette: RGB(253 255 253);
 $color-ledelice: RGB(249 249 249);
 
 /*tete de page*/
+.color-background {
+    background-color: $color-tetepied;
+}
+
+.couleur-texte {
+    color: $color-textetitre;
+}
 
 * {
     margin: 0;
@@ -17,7 +24,7 @@ $color-ledelice: RGB(249 249 249);
 }
 
 .tete-page {
-    background-color: $color-tetepied;
+    
     height: 8rem;
     text-align: center;
     top:0px;
@@ -26,7 +33,6 @@ $color-ledelice: RGB(249 249 249);
 h1 {
     padding-top: 1.5rem;
     font-size: 4rem;
-    color: $color-textetitre;
 }
 
 /* corps de page*/
@@ -71,10 +77,23 @@ h2 {
     font-size: 1.3rem;
 }
 
+.bouton {
+    border: 1px solid black;
+    width: 280px;
+    height: 55px;
+    margin: auto;
+    margin-top: 4rem;
+    text-align: center;
+    border-radius: 50px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    padding-top: .8rem;
+}
 /*pied de page*/
 
-footer {
-    background-color: $color-tetepied;
+.pied-page{
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -85,6 +104,6 @@ footer {
 }
 
 h4 {
-    color: $color-textetitre;
     font-size: 1.5rem;
+    padding-top: 2.5rem;
 }
