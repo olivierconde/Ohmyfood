@@ -1,3 +1,19 @@
+/*font*/
+/*variable*/
+/*tete de page*/
+* {
+  margin: 0;
+  padding: 0; }
 
+.tete-page {
+  background-color: RGB(87 156 135);
+  height: 8rem;
+  text-align: center;
+  top: 0px; }
+
+h1 {
+  padding-top: 1.5rem;
+  font-size: 4rem;
+  color: RGB(253 203 69); }
 
 /*# sourceMappingURL=style.css.map */
