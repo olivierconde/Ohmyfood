@@ -1,20 +1,24 @@
 /*font*/
 /*variable*/
 /*tete de page*/
+.color-background {
+  background-color: RGB(87 156 135); }
+
+.couleur-texte {
+  color: RGB(253 203 69); }
+
 * {
   margin: 0;
   padding: 0; }
 
 .tete-page {
-  background-color: RGB(87 156 135);
   height: 8rem;
   text-align: center;
   top: 0px; }
 
 h1 {
   padding-top: 1.5rem;
-  font-size: 4rem;
-  color: RGB(253 203 69); }
+  font-size: 4rem; }
 
 /* corps de page*/
 main {
@@ -48,9 +52,21 @@ h2 {
   padding-top: 8rem;
   font-size: 1.3rem; }
 
+.bouton {
+  border: 1px solid black;
+  width: 280px;
+  height: 55px;
+  margin: auto;
+  margin-top: 4rem;
+  text-align: center;
+  border-radius: 50px; }
+
+h3 {
+  font-size: 1.5rem;
+  padding-top: .8rem; }
+
 /*pied de page*/
-footer {
-  background-color: RGB(87 156 135);
+.pied-page {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -60,7 +76,7 @@ footer {
   justify-content: space-around; }
 
 h4 {
-  color: RGB(253 203 69);
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  padding-top: 2.5rem; }
 
 /*# sourceMappingURL=style.css.map */
