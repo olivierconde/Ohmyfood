@@ -1,0 +1,29 @@
+/*font*/
+
+/*variable*/
+
+$color-tetepied: RGB(87 156 135);
+$color-textetitre: RGB(253 203 69);
+$color-lanoteenchantee: RGB(252 223 219);
+$color-lechicfrancaise: RGB(255 245 254);
+$color-lapalette: RGB(253 255 253);
+$color-ledelice: RGB(249 249 249);
+
+/*tete de page*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.tete-page{
+    background-color: $color-tetepied;
+    height: 8rem;
+    text-align: center;
+    top:0px;
+}
+h1{
+    padding-top: 1.5rem;
+    font-size: 4rem;
+    color: $color-textetitre;
+}
