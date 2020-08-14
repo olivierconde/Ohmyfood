@@ -1,5 +1,15 @@
 /*font*/
 
+@font-face {
+    font-family: 'flow_extbold';
+    src: url('fonts/flow_b-webfont.woff2') format('woff2'),
+         url('fonts/flow_b-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 /*variable*/
 
 $color-tetepied: RGB(87 156 135);
@@ -30,14 +40,15 @@ $color-ledelice: RGB(249 249 249);
     top:0px;
 } 
 
-h1 {
+.titre-index {
+    font-family: "flow_extbold", sans-serif;
     padding-top: 1.5rem;
     font-size: 4rem;
 }
 
 /* corps de page*/
 
-main {
+.coprs-index {
     width: 1240px;
     height: 100%;
     margin: auto;
@@ -65,7 +76,7 @@ article{
 
 .lanote {
     background-color: $color-lanoteenchantee;
-    
+    color: black;
 }
 
 .lechic {
@@ -80,7 +91,7 @@ article{
     background-color: $color-lapalette;
 }
 
-h2 {
+.titre-menus{
     text-align: center;
     padding-top: 8rem;
     font-size: 1.3rem;
@@ -95,7 +106,7 @@ h2 {
     border-radius: 50px;
 }
 
-h3 {
+.bouton-proch {
     font-size: 1.5rem;
     padding-top: .8rem;
 }
@@ -111,7 +122,17 @@ h3 {
     justify-content: space-around ;
 }
 
-h4 {
+.footer-mention {
     font-size: 1.5rem;
     padding-top: 2.5rem;
+}
+
+
+        /*le note enchantee*/
+
+.couleur-fond-lanote {
+    background-color: $color-lanoteenchantee;
+}
+.tete-page-lanote {
+    text-align: center;
 }
