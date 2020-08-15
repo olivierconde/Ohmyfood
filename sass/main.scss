@@ -133,6 +133,55 @@ article{
 .couleur-fond-lanote {
     background-color: $color-lanoteenchantee;
 }
+
 .tete-page-lanote {
     text-align: center;
+    padding-top: 1.2rem;
+}
+
+.corps-menus{
+    width: 950px;
+    margin: auto;
+    text-align: center;
+    /*border: 3px solid black;*/
+}
+
+.titre-plats{
+    /*border: 1px solid blue;*/
+    padding-top: 3.5rem;
+    
+
+
+}
+.marge-plat{
+    padding: 0rem 3rem 0rem 4rem;
+}
+span{
+    padding: 0rem 1.5rem 0rem 1.5rem;
+    vertical-align: top;
+}
+
+.dimension-plat{
+    /*border: 3px solid red;*/
+    width: 780px;
+    margin: auto;
+}
+
+p{
+    line-height: 200%;
+}
+
+li{
+    list-style-type: none;
+}
+.plat{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.images-lanote{
+    /*border: 2px solid black;*/
+    width: 1.5rem;
+    padding-top: 1.5rem;
 }
