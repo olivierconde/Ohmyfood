@@ -17,7 +17,7 @@ $color-textetitre: RGB(253 203 69);
 $color-lanoteenchantee: RGB(252 223 219);
 $color-lechicfrancaise: RGB(255 245 254);
 $color-lapalette: RGB(253 255 253);
-$color-ledelice: RGB(249 249 249);
+$color-ledelice: RGB(237 239 239);
 
 /*tete de page*/
 .color-background {
@@ -134,13 +134,13 @@ article{
     background-color: $color-lanoteenchantee;
 }
 
-.tete-page-lanote {
+.tete-page-lesmenus {
     text-align: center;
     padding-top: 1.2rem;
 }
 
 .corps-menus{
-    width: 950px;
+    width: 1024px;
     margin: auto;
     text-align: center;
     /*border: 3px solid black;*/
@@ -185,3 +185,17 @@ li{
     width: 1.5rem;
     padding-top: 1.5rem;
 }
+
+    /*lapalette*/
+
+.couleur-de-fond-lapalette {
+    background-color: $color-lapalette;
+}
+
+.dimention-ligne-lapalette{
+    width: 350px;
+}
+
+
+    /*lechic*/
+
